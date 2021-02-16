@@ -98,6 +98,32 @@ III - Optimisation and content creation :
         A - Size
         B - alt
 
-IV - Search for links and partners ;
+IV - Search for links and partners :
 
-    1 - Social network links
+    1 - Social network
+
+V - Implementation of reporting :
+
+    1 - With Google search console
+
+---
+
+I - Advanced SEO techniques
+
+    1 - Resize image & compress with :
+        https://imageoptim.com/fr
+
+    2 - Make website smaller & faster with :
+        https://www.minifier.org
+
+    3 - Compress pages with :
+
+        Testing with :
+        https://www.giftofspeed.com
+
+    4 - Test with :
+        https://gtmetrix.com/reports/eric-dpy-git.github.io/gEJ7s9c5/
+
+    5 - Test mobile friendly with :
+        https://search.google.com/test/mobile-friendly
+        https://search.google.com/test/mobile-friendly?id=CKwO9zQOSjcOafAOBVhGow
