@@ -33,16 +33,16 @@ II - Keyword research (5 types ok keywords):
 
 1 - Short-tail/single-word keywords Longtail keywords
 
-    A - Keywords with Keyword planner :
+    A - Keywords find with Keyword planner :
             https://docs.google.com/spreadsheets/d/1mZXwjyT-3olW2iV0Q14l-VBMho5J-sGErEcPpZTkgKA/edit?usp=sharing
 
 2 - Local keyword
 
-    A - Not a local business.
+    A - Lyon.
 
 3 - Local pages
 
-    A - Not a local business.
+    A - Create a google my business account
 
 4 - Get quotes
 
