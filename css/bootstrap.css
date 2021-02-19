@@ -5,18 +5,6 @@
  */
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
-/* Addition of Eric */
-@font-face {
-  font-family: Kingthings;
-  src: url("/fonts/Kingthings-Petrock/Kingthings_Petrock.ttf");
-}
-
-.logo-title {
-  font-family: Kingthings;
-  font-size: 1em;
-}
-
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
