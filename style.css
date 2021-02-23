@@ -1,11 +1,11 @@
 /* Addition  of Eric */
 @font-face {
-  font-family: Kingthings;
-  src: url("/fonts/Kingthings-Petrock/Kingthings_Petrock.ttf");
+  font-family: Kingthings-Petrock-light;
+  src: url("/fonts/Kingthings-Petrock-light.ttf");
 }
 .logo-font {
-  font-family: Kingthings;
-  font-size: 24px;
+  font-family: Kingthings-Petrock-light;
+  font-size: 28px;
 }
 .article-1 {
   padding: 0 160px;

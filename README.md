@@ -18,7 +18,7 @@ V - Implementation of reprting.
 I - Quick audit with lightouse.com :
 
     A - Onpage audit on :
-            Audit-SEO-La-Chouette-Agence.xlsx
+            https://drive.google.com/file/d/1qj0No7YsyUrE1dhiLZS5h3jvmYPavhuO/view?usp=sharing
 
     B - Lighthouse evaluation :
             https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Feric-dpy-git.github.io%2FEricDuprey_4_10022021%2F
@@ -41,7 +41,7 @@ II - Keyword research (5 types ok keywords):
 
 2 - Local keyword
 
-    A - Lyon.
+    A - Lyon
 
 3 - Local pages
 
@@ -135,8 +135,8 @@ Foreground: #F3AC6C
 Background: #312F0D
 The contrast ratio is: 7,1:1
 1.4.3 Contrast (Minimum) (AA)
-    Pass for large and regular text
+Pass for large and regular text
 1.4.6 Contrast (Enhanced) (AAA)
-    Pass for large and regular text
+Pass for large and regular text
 1.4.11 Non-text Contrast (AA)
-    Pass for UI components and graphical objects
+Pass for UI components and graphical objects
