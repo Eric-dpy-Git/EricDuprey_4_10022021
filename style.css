@@ -1,15 +1,10 @@
 /* Addition  of Eric */
 @font-face {
   font-family: Kingthings-Petrock-light;
-  src: url("/fonts/Kingthings-Petrock-light.ttf");
-}
-@font-face {
-  font-family: Shrikhand;
-  src: url("fonts/Shrikhand-Regular.ttf");
+  src: url("fonts/Kingthings-Petrock-light.ttf");
 }
 .logo-font {
-  font-family: Shrikhand;
-  /* font-family: Kingthings-Petrock-light; */
+  font-family: Kingthings-Petrock-light;
   font-size: 28px;
 }
 .article-1 {
