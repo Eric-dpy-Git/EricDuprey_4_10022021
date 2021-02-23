@@ -25,8 +25,7 @@ h2 {
 }
 /* stay centered */
 .sized {
-  width: 90%;
-  margin: 20px;
+  width: 100%;
 }
 .blockquote-p {
   font-size: 20px;
@@ -1115,6 +1114,10 @@ h4 {
   }
   .foot-ctr {
     margin: 0 0 0 75px;
+  }
+  .sized {
+    width: 80%;
+    margin: 0 0 20px 30px;
   }
 }
 
