@@ -1808,9 +1808,11 @@ ul ul {
 }
 
 .list-inline {
-  padding-left: 0;
-  margin-left: -5px;
-  list-style: none;
+  /* padding-left: 0; */
+  /*  margin-left: -5px; */
+  /*  list-style: none; */
+  height: 48px;
+  color: #000000;
 }
 
 .list-inline > li {
@@ -8175,6 +8177,10 @@ button.close {
 @media (max-width: 767px) {
   .visible-xs-block {
     display: block !important;
+  }
+  /* links stay centered */
+  .col-sm-4 {
+    float: left;
   }
 }
 

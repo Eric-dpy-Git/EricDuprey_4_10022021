@@ -31,6 +31,9 @@ h2 {
   max-width: 450px;
   margin: 0 auto;
 }
+h3 {
+  margin: 0 0 20px 0;
+}
 
 body {
   margin: 0;
@@ -40,7 +43,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -509,9 +511,9 @@ button {
   box-shadow: 0 1px 3px rgba(0, 0, 1, 0.25),
     inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
 }
-
+/* 48px sized tap target */
 .icon-md {
-  font-size: 30px !important;
+  font-size: 48px !important;
 }
 
 .icon-lg {
@@ -687,7 +689,9 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  /* better contrast */
+  color: #000000;
+  /* color: #575757 !important; */
 }
 
 .container {
@@ -774,7 +778,7 @@ h4 {
 }
 
 .white {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .portfolio-thumb {
@@ -794,10 +798,13 @@ h4 {
   background-color: rgba(165, 147, 99, 0.7);
   padding: 40px 40px 40px 40px;
 }
-
+/* Improve contrast and link visibility */
 .bold-link {
-  font-weight: 900;
-  text-decoration: underline !important;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #f3976c;
+  /* background instead décoration */
+  text-decoration: none !important;
 }
 
 .bgc-white {
@@ -813,25 +820,28 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c !important;
+  /* Best contrast for accesibility */
+  color: #ffffff !important;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: #000000 !important;
 }
-
+/* Best contrast for accesibility */
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
-  color: #ffffff !important;
+  background: #e79e7b !important;
+  color: ##000000 !important;
 }
 
 .ltc-white {
-  color: #ffffff !important;
+  color: #000000 !important;
+  border-radius: 40px;
 }
 
 .ltc-white:hover {
-  color: #cccccc !important;
+  color: #000000 !important;
+  background-color: #e79e7b;
 }
 
 .ltc-atomic-tangerine {
@@ -860,7 +870,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1074,6 +1084,9 @@ h4 {
   /* Addition  of Eric */
   .article-1 {
     padding: 0 10px;
+  }
+  .foot-ctr {
+    margin: 0 0 0 75px;
   }
 }
 
