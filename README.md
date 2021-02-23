@@ -130,3 +130,13 @@ I - Advanced SEO techniques
     5 - Test mobile friendly with :
         https://search.google.com/test/mobile-friendly
         https://search.google.com/test/mobile-friendly?id=CKwO9zQOSjcOafAOBVhGow
+
+Foreground: #F3AC6C
+Background: #312F0D
+The contrast ratio is: 7,1:1
+1.4.3 Contrast (Minimum) (AA)
+    Pass for large and regular text
+1.4.6 Contrast (Enhanced) (AAA)
+    Pass for large and regular text
+1.4.11 Non-text Contrast (AA)
+    Pass for UI components and graphical objects
