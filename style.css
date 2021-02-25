@@ -68,9 +68,8 @@ figcaption {
 }
 /* ---------  map   ------------- */
 .map-box {
-  margin: 0 0 40px 40px;
-  width: 600px;
-  height: 250px;
+  width: 400px;
+  height: 330px;
 }
 /* ---------  map   ------------- */
 body {
@@ -1120,6 +1119,7 @@ h4 {
   }
 
   .map-box {
+    margin: 20px 0 0 40px;
     width: 260px;
     height: 260px;
   }
