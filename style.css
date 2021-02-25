@@ -60,7 +60,19 @@ figcaption {
   font-size: 16px;
   color: #000000;
 }
-
+.tc-black {
+  color: #000000;
+}
+#bloc-7 {
+  margin: 30px 0 0 0;
+}
+/* ---------  map   ------------- */
+.map-box {
+  margin: 0 0 40px 40px;
+  width: 600px;
+  height: 250px;
+}
+/* ---------  map   ------------- */
 body {
   margin: 0;
   padding: 0;
@@ -1102,8 +1114,18 @@ h4 {
     height: 320px;
   }
 }
+@media (max-width: 425px) {
+  .foot-ctr {
+    margin: 0 0 0 75px;
+  }
 
-@media (max-width: 400px) {
+  .map-box {
+    width: 260px;
+    height: 260px;
+  }
+}
+
+@media (max-width: 350px) {
   .bloc {
     padding-left: 0;
     padding-right: 0;
@@ -1118,6 +1140,10 @@ h4 {
   .sized {
     width: 80%;
     margin: 0 0 20px 30px;
+  }
+  .map-box {
+    width: 240px;
+    height: 260px;
   }
 }
 
