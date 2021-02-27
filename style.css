@@ -7,6 +7,10 @@
   font-family: Kingthings-Petrock-light;
   font-size: 28px;
 }
+#logo-png {
+  width: 35px;
+  height: 40px;
+}
 .article-1 {
   padding: 0 160px;
 }
@@ -65,6 +69,10 @@ figcaption {
 }
 #bloc-7 {
   margin: 30px 0 0 0;
+}
+.img-responsive {
+  height: 270px;
+  width: 270px;
 }
 /* ---------  map   ------------- */
 .map-box {
@@ -869,7 +877,7 @@ h4 {
 /* Best contrast for accesibility */
 .btn-atomic-tangerine:hover {
   background: #e79e7b !important;
-  color: ##000000 !important;
+  color: #000000 !important;
 }
 
 .ltc-white {
