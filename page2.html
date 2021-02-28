@@ -28,18 +28,15 @@
     <!-- for ios -->
     <link rel="apple-touch-icon" href="img/favicon.jpg" />
 
+    <!-- First sheet to be charged -->
     <link rel="preload" href="style.min.css" as="style" />
-
-    <link
-      defer
-      rel="stylesheet"
-      type="text/css"
-      href="./css/bootstrap.min.css"
-    />
+    <!-- Min links -->
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="style.min.css" />
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="./css/et-line.min.css" />
 
+    <!-- Defer & min links -->
     <script defer src="./js/jquery-2.1.0.min.js"></script>
     <script defer src="./js/bootstrap.min.js"></script>
     <script defer src="./js/blocs.min.js"></script>
@@ -74,10 +71,6 @@
         <div class="container bloc-sm">
           <nav class="navbar row">
             <div class="navbar-header">
-              <!-- <div class="keywords" style="color: #cccccc; font-size: 1px">
-                Agence web à paris, stratégie web, web design, illustrations,
-                design de site web, site web, web, internet, site internet, site
-              </div> -->
               <a class="navbar-brand" href="index.html"
                 ><p>
                   <img
@@ -88,10 +81,6 @@
                   /><span class="logo-font">La chouette agence</span>
                 </p></a
               >
-              <!-- <div class="keywords" style="color: #cccccc; font-size: 1px">
-                Agence web à paris, stratégie web, web design, illustrations,
-                design de site web, site web, web, internet, site internet, site
-              </div> -->
               <button
                 id="nav-toggle"
                 type="button"
@@ -161,6 +150,7 @@
                     class="form-control"
                     required
                     aria-label="Inserez votre nom ici"
+                    placeholder="Votre nom"
                   />
                 </div>
                 <div class="form-group">
@@ -171,6 +161,7 @@
                     type="email"
                     required
                     aria-label="Inserez votre email ici"
+                    placeholder="Votre mail"
                   />
                 </div>
                 <div class="form-group">
@@ -181,11 +172,12 @@
                     required
                     id="input_504"
                     aria-label="Inserez votre texte ici"
+                    placeholder="Internet, moteur de recherche, presse..."
+                    maxlength="50"
                   />
                 </div>
                 <div class="form-group">
-                  <label>
-                    Brief de votre projet, 200 cractères maximum<br /> </label
+                  <label> Brief de votre projet<br /> </label
                   ><textarea
                     id="message"
                     class="form-control"
@@ -194,6 +186,7 @@
                     maxlength="200"
                     required
                     aria-label="Inserez votre texte ici"
+                    placeholder="Inserez votre texte ici, 200 cractères maximum"
                   ></textarea>
                 </div>
                 <button

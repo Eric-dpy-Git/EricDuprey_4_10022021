@@ -24,15 +24,14 @@
     <link rel="shortcut icon" type="image" href="img/favicon.jpg" />
     <!-- for ios -->
     <link rel="apple-touch-icon" href="img/favicon.jpg" />
-
+    <!-- First link load -->
     <link rel="preload" href="style.min.css" as="style">
-    
-
+    <!-- Min links -->
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.min.css" />
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="./css/et-line.min.css" />
-
+    <!-- Defer & min links-->
     <script defer src="./js/jquery-2.1.0.min.js"></script>
     <script defer src="./js/bootstrap.min.js"></script>
     <script defer src="./js/blocs.min.js"></script>
@@ -67,12 +66,14 @@
         <div class="container bloc-sm">
           <nav class="navbar row">
             <div class="navbar-header">
+              <!-- Remove Black-hat things -->
               <!-- <div class="keywords" style="color: #cccccc; font-size: 1px">
                 Agence web à paris, stratégie web, web design, illustrations,
                 design de site web, site web, web, internet, site internet, site
               </div> -->
               <a class="navbar-brand" href="index.html"
                 ><p>
+                  <!-- Size into html for faster display -->
                   <img
                     width="35"
                     height="40"
@@ -207,6 +208,7 @@
           </div>
           <div class="row voffset-lg voffset">
             <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+              <!-- Blockquote instead image -->
               <blockquote>
                 <p class="blockquote-p">
                   "La chouette agence est une excellente agence web ! Les web
@@ -214,9 +216,9 @@
                   et à l'intégrer à notre site. Cela nous a aidé à doubler nos
                   ventes en ligne à Lyon."
                 </p>
+                <!-- semantic with cite -->
                 <cite>Maxime Guibard, PDG de À vos fourchettes</cite>
               </blockquote>
-              <!-- Blockquote instead image -->
               <!--               <img
                 alt="agence web, agence web paris, web design paris, stratégie web"
                 src="img/citation.png"
@@ -292,7 +294,9 @@
                 data-gallery-id="gallery-1"
                 data-caption="Refonte d'un site web pour un journal local"
                 data-frame="snapshot-lb"
-                ><figure><img
+                >
+                <!-- Semantic with figure -->
+                <figure><img
                   width="270"
                   height="270"
                   src="img/1.jpg"
@@ -302,6 +306,7 @@
               <h3 class="mg-md text-center">
                 Refonte d'un site web pour un journal local
               </h3>
+              <!-- Semantic with figcaption -->
               <figcaption class="text-center">
                 Nous avons créé une nouvelle identité visuelle pour un journal
                 lyonnais.
@@ -425,6 +430,7 @@
                 <div class="col-sm-3">
                   <div class="text-center">
                     <!-- real link -->
+                    <!-- Aria labe for accessibility -->
                     <a class="social"
                     aria-label="Rejoignez Twitter" href="https://twitter.com"
                       ><span class="fa fa-twitter icon-md"></span
