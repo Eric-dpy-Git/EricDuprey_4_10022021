@@ -2,6 +2,7 @@
 @font-face {
   font-family: Kingthings-Petrock-light;
   src: url("fonts/Kingthings-Petrock-light.ttf");
+  font-display: swap;
 }
 .logo-font {
   font-family: Kingthings-Petrock-light;

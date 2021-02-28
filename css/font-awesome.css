@@ -13,6 +13,7 @@
     url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
     url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular")
       format("svg");
+  font-display: swap;
   /*   font-weight: normal;
   font-style: normal; */
 }
@@ -37,7 +38,6 @@
   color: black;
 }
 
-
 .fa-instagram:before {
   content: "\f16d";
   color: black;
@@ -47,4 +47,3 @@
   content: "\f17d";
   color: black;
 }
-
