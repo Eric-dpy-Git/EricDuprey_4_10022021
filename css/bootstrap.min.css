@@ -4359,12 +4359,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
   max-height: 340px;
 }
 /* W3c correction max-device-width */
-@media (device-width: 480px) and (orientation: landscape) {
+/* @media (device-width: 480px) and (orientation: landscape) {
   .navbar-fixed-bottom .navbar-collapse,
   .navbar-fixed-top .navbar-collapse {
     max-height: 200px;
   }
-}
+} */
 .container-fluid > .navbar-collapse,
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
@@ -6946,9 +6946,9 @@ button.close {
 .affix {
   position: fixed;
 }
-@-ms-viewport {
+/* @-ms-viewport {
   width: device-width;
-}
+} */
 .visible-lg,
 .visible-md,
 .visible-sm,
